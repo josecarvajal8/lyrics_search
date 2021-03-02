@@ -1,12 +1,9 @@
 import React, { ReactNode } from 'react';
 import { Text, View } from 'react-native';
+import Router from './router';
 const App: () => ReactNode = () => {
     return (
-        <View>
-            <Text>
-                {'Hi Im the lyrics hunter'}
-            </Text>
-        </View>
+        <Router />
     )
 }
 
